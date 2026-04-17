@@ -24,12 +24,3 @@ It does not use background network requests, analytics, remote code, or persiste
 ## Release Notes
 
 The extension is packaged as a Manifest V3 extension and now declares `minimum_chrome_version: "88"` because `chrome.scripting` is only available in Chrome 88+.
-
-Before submitting to the Chrome Web Store:
-
-1. Build the upload ZIP with `./package-release.sh`.
-2. Upload at least one real screenshot of the extension in use.
-3. Publish the `docs/` folder with GitHub Pages and use `/privacy/` as the privacy policy URL.
-4. Fill in the privacy section using [PRIVACY.md](PRIVACY.md).
-5. Use the listing copy in [STORE_LISTING.md](STORE_LISTING.md).
-6. Use [store-assets/tiny-yt-promo-440x280.png](store-assets/tiny-yt-promo-440x280.png) as the small promo tile.
